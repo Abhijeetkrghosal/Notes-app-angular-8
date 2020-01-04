@@ -3,9 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyDuhLztS64Ka3MgXt9juQXe8JcaTI4eUNs',
+    authDomain: 'http://localhost:4200',
+    databaseURL: 'https://twitter-app-d9abf.firebaseio.com',
+    projectId: 'twitter-app-d9abf',
+    storageBucket: 'twitter-app-d9abf.appspot.com',
+    messagingSenderId: '821140649131'
+  }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
